@@ -17,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/raushan-sinha/devdigest-backend/issues"
   },
-  "homepage": "https://github.com/raushan-sinha/devdigest-backend#readme"
+  "homepage": "https://github.com/raushan-sinha/devdigest-backend#readme",
+  "dependencies": {
+    "axios": "^1.18.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
 }
