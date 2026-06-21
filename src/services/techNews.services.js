@@ -10,7 +10,7 @@ export const fetchTechNews = async () => {
                 params: {
                     q: 'technology',
                     lang: 'en',
-                    max: 5,
+                    max: 10,
                     apikey: process.env.TECH_NEWS_API_KEY
                 }
             }
@@ -24,6 +24,11 @@ export const fetchTechNews = async () => {
             url: article.url
         }))
     } catch (error) {
-        console.error('Error', error);
+        console.error(
+            "GNews Error:",
+            error.response?.data || error.message
+        );
+    
+        throw error;
     }
 };
