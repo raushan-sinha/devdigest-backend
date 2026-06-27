@@ -16,6 +16,8 @@ export const fetchTechNews = async () => {
             }
         )
 
+        console.log(apiResponse.data)
+
         return apiResponse.data.articles.map((article, idx) => ({
             id: idx + 1,
             title: article.title,
