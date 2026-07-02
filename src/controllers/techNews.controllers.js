@@ -3,9 +3,10 @@ import { fetchTechNews } from "../services/techNews.services.js";
 export const getTechNews = async (req, res) => {
     try {
         const response = await fetchTechNews();
-        
+
         return res.status(200).json(response);
     } catch (error) {
+        console.log("error from controller", error)
         return res.status(500).json({
             message: "Unknown Error"
         });
