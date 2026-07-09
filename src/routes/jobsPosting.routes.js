@@ -3,6 +3,6 @@ import { getJobsPosting } from '../controllers/jobsPosting.controllers.js';
 
 const jobsRouter = express.Router();
 
-jobsRouter.get('/api', getJobsPosting);
+jobsRouter.get('/', getJobsPosting);
 
 export default jobsRouter;

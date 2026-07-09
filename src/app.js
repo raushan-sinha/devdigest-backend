@@ -12,7 +12,7 @@ app.use(cors());
 app.use('/api/tech-news', newsRouter);
 
 // Jobs Router -
-app.use('/jobs', jobsRouter);
+app.use('/api/jobs', jobsRouter);
 
 // GitHub repo -
 app.use('/api/github-repo', gitHubRepoRouter);
