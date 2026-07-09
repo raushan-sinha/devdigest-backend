@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // Tech News Router -
-app.use('/tech-news', newsRouter);
+app.use('/api/tech-news', newsRouter);
 
 // Jobs Router -
 app.use('/jobs', jobsRouter);

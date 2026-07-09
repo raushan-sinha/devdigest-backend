@@ -3,6 +3,6 @@ import { getTechNews } from '../controllers/techNews.controllers.js';
 
 const newsRouter = express.Router();
 
-newsRouter.get('/api', getTechNews);
+newsRouter.get('/', getTechNews);
 
 export default newsRouter;
