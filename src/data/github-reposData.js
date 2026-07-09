@@ -1,4 +1,4 @@
-export const github_repos = [
+export const GITHUB_REPOS_DATA = [
     {
         id: 1,
         title: "DevDigest",
