@@ -4,13 +4,9 @@ export const getGitHubRepoData = async (req, res) => {
     try {
         const gitHubRepo = await fetchGitHubRepoData();
 
-        res.status(200).json({
-            success: true,
-            data: gitHubRepo
-        });
+        res.status(200).json(gitHubRepo);
     } catch (error) {
         res.status(500).json({
-            success: false,
             message: 'GitHub Repo not found!' || error.message
         });
     }
