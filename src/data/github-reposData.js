@@ -8,7 +8,7 @@ export const GITHUB_REPOS_DATA = [
             "Jupyter Notebook",
         ],
         githubUrl:
-            "https://github.com/shsarv/machine-learning-Projects",
+            "https://github.com/shsarv/machine-learning-Projects"
     },
     {
         id: 2,
@@ -19,6 +19,6 @@ export const GITHUB_REPOS_DATA = [
             "Jupyter Notebook",
         ],
         githubUrl:
-            "https://github.com/karpathy/nn-zero-to-hero",
+            "https://github.com/karpathy/nn-zero-to-hero"
     }
 ]
