@@ -1,32 +1,24 @@
 export const GITHUB_REPOS_DATA = [
     {
         id: 1,
-        title: "DevDigest",
+        title: "Machine-Learning-Projects",
         description:
-            "A developer-focused news platform providing technology updates, AI insights, and career opportunities.",
+            "This repository showcases a selection of machine learning projects undertaken to understand and master various ML concepts. Each project reflects commitment to applying theoretical knowledge to practical scenarios, demonstrating proficiency in machine learning techniques and tools.",
         techStack: [
-            "Next.js",
-            "TypeScript",
-            "Tailwind CSS"
+            "Jupyter Notebook",
         ],
         githubUrl:
-            "https://github.com/username/devdigest",
-        codeUrl:
-            "https://github.com/username/devdigest/tree/main/src"
+            "https://github.com/shsarv/machine-learning-Projects",
     },
     {
         id: 2,
-        title: "JokeBuzz",
+        title: "Neural Networks: Zero to Hero",
         description:
-            "A full-stack joke application built with React and Express.",
+            "A course on neural networks that starts all the way at the basics. The course is a series of YouTube videos where we code and train neural networks together. The Jupyter notebooks we build in the videos are then captured here inside the lectures directory. Every lecture also has a set of exercises included in the video description. (This may grow into something more respectable).",
         techStack: [
-            "React",
-            "Node.js",
-            "Express.js"
+            "Jupyter Notebook",
         ],
         githubUrl:
-            "https://github.com/username/jokebuzz",
-        codeUrl:
-            "https://github.com/username/jokebuzz/tree/main/src"
+            "https://github.com/karpathy/nn-zero-to-hero",
     }
 ]
