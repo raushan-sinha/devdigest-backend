@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-export const fetchProgrammingQuote = async () => {
+export const fetchProgrammingQuoteApi = async () => {
     try {
         const apiResponse = await axios.get(`${process.env.PROGRAMMING_QUOTE_API_URL}`);
 
