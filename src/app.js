@@ -3,6 +3,7 @@ import cors from 'cors';
 import newsRouter from './routes/techNews.routes.js';
 import jobsRouter from './routes/jobsPosting.routes.js';
 import gitHubRepoRouter from './routes/gitHubRepo.routes.js';
+import quoteRouter from './routes/programQuote.routes.js';
 
 const app = express();
 app.use(express.json());
@@ -16,5 +17,10 @@ app.use('/api/jobs', jobsRouter);
 
 // GitHub repo -
 app.use('/api/github-repo', gitHubRepoRouter);
+
+
+// Programming Quote -
+app.use('/api/programming-quote', quoteRouter);
+
 
 export default app;
